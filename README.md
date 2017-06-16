@@ -8,17 +8,21 @@ When you install this app (http://gamebanana.com/apps/2), it will appear in your
 # The Navigator Tab
 
 When you roll over this App's Navigator Tab, a request will be made to the
-Navigator Tab URL specified in Test App's edit form (which is: http://banana.org/testapp.php?nav). 
-The response contains today's date as well as the GET variables that are sent to it.
+Navigator Tab URL specified in Test App's edit form (which is: http://banana.org/testapp.php?nav).
+The response is then printed in the Navigator Tab.
 
 # The Profile Module
 
 In your profile, you should see a module called "Test Module". The contents of this module is
-generated from the request made to the Profile Module URLL specified in Test App's edit form (which is: http://banana.org/testapp.php). 
-The response contains today's date, the GET variables that are sent to it and some info promoting App development.
+generated from the request made to the Profile Module URL specified in Test App's edit form (which is: http://banana.org/testapp.php).
+The response is then printed in the Profile Module.
 
-Need help?
+# Need help?
 
 Hop on the #gamebanana-api discord channel:
 
 https://discord.gg/EFhVkV
+
+# Creating Apps
+
+Simply add your App here: http://gamebanana.com/apps/add
