@@ -57,8 +57,11 @@ if (isset($_GET["nav"])) // requesting the navigator tab:
 			<dd><?= $_GET["_idProfile"] ?> (<code><?= htmlspecialchars('$_GET["_idProfile"]') ?>)</code></dd>
 		</dl>
 		<p>
-			How does this App work? Here's the PHP code executed when GameBanana accesses this App's
-			webserver URL (<code>http://banana.org/testapp.php</code>):
+			How does this App work? See it on <a href="https://github.com/banana-org/testapp">Github</a>.
+		</p>
+		<p>
+			Here's the PHP code executed when GameBanana accesses this App's
+			response URLs (<code>http://banana.org/testapp.php</code>):
 		</p>
 		<p>
 			<textarea><?= htmlspecialchars(file_get_contents(__FILE__)) ?></textarea>
