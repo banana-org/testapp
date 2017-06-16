@@ -58,7 +58,7 @@ if (isset($_GET["nav"])) // requesting the navigator tab:
 		</dl>
 		<p>
 			How does this App work? Here's the PHP code executed when GameBanana accesses this App's
-			webserver URL (<code>http://gamebanana.net/testapp.php</code>):
+			webserver URL (<code>http://banana.org/testapp.php</code>):
 		</p>
 		<p>
 			<textarea><?= htmlspecialchars(file_get_contents(__FILE__)) ?></textarea>
