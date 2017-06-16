@@ -21,7 +21,7 @@ The response is then printed in the Profile Module.
 
 Hop on the #gamebanana-api discord channel:
 
-https://discord.gg/EFhVkV
+https://discord.gg/5zVsPDF
 
 # Creating Apps
 
